@@ -201,4 +201,5 @@ def cq_admin_action(cq):
 # ----------------- INICIAR -----------------
 if __name__ == "__main__":
     print("🤖 Bot rodando...")
-    bot.infinity_polling()
+    bot.polling(none_stop=True, interval=0, timeout=20)
+
